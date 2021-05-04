@@ -1,0 +1,12 @@
+We will create a virtual environnement on our computers. 
+  python3 -m venv nameofthevenv
+In it we will upload all the needed extarnal librairies by using the pip command.
+
+All the librairies are required to run the differents files but our venv is not share(Because it's heavy and useless)
+We use :
+  py -m pip freeze > requirements.txt
+to create a requirements text file with all the used librairies and there version
+
+Use :
+  pip install -r requirements.txt
+to upload all the librairies and there version wich are in requirement.txt in your own venv
